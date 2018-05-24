@@ -4,7 +4,8 @@ applications:
   host: timesheets-pal-anand-srini
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-anand-srini.apps.evans.pal.pivotal.io
+  #env:
+    #REGISTRATION_SERVER_ENDPOINT: https://registration-pal-anand-srini.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
